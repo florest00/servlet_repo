@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import url("./reset.css");
+@import url("./common.css");
+
+span {
+	color: #dbd9d9;
+	font-size: 54px;
+	font-weight: 600;
+}
