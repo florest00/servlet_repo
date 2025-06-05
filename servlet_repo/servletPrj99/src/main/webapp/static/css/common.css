@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body , h1 {
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	height: 20vh;
+}
+
+main {
+	height: 65vh;
+	width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main button {
+	display: block;
+}
+
+footer{
+	height: 15vh; 
+	background-color: #c0c0c0;
+	
+    justify-content: center;
+    display: flex
+;
+}
+
+header h1 {
+	text-align: center;
+	color: #242424;
+}
+
+header > div:first-child {
+	padding: 24px;
+	display: grid; 
+	grid-template-columns : 2fr 6fr 2fr;
+	grid-template-rows : 1fr;
+}
+
+#login-area form {
+	display: grid; 
+	grid-template-columns : 1fr 1fr;
+	grid-template-rows : 1fr 1fr;
+}
+
+header > nav {
+	padding: 8px;
+	display: flex; 
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100vw;
+	margin: auto;
+	background-color: #242424;
+	font-size: 20px;
+}
+
+header > nav a {
+	color: #f0f0f0;
+}
+
+header a {
+	text-decoration: none;
+}
